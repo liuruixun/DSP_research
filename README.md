@@ -1,2 +1,2 @@
 # DSP_research
-The code will be available soon.
+The whole project will be available soon.
