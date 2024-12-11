@@ -166,9 +166,6 @@ class InferenceThread(QThread):
             
             output = self.model(input_tensor)
             result = torch.argmax(output).item()
-            numbers = [0,1,2,3,4]
-            # 使用random.choice()从列表中随机选择一个元素
-            result = random.choice(numbers)
                         
         self.update_progress.emit(100)
         self.finished.emit(f"Inference Result: {result}")
